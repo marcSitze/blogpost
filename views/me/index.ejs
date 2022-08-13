@@ -7,7 +7,7 @@
         <div class="row">
             <% videos.forEach(video => { %>
                  <% if(video.author == user.id) { %>
-                    <div class="col-12 text-center my-1">
+                    <div class="col-12 text-center my-1 border">
                         <h2><%= video.title %></h2>
                         <p><%= video.description %></p>
                         <!-- <a href="/<%= video.path %>" class="pop-img">

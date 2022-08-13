@@ -2,8 +2,8 @@
 
  <div class="container mt-3">
     <h1>Upload a Meme here it's free</h1>
-    <h2>Only images and gifs are supported for now</h2>
-    <p>Click on the Browse button to choose an image in your file system and click on the submit button to upload the image</p>
+    <h2>Create an article by typing the title and a description</h2>
+    <!-- <p>Click on the Browse button to choose an image in your file system and click on the submit button to upload the image</p> -->
     <% if(locals.errors != null) {%>
         <% errors.forEach(error =>{ %>
             <li class="alert alert-danger"><%= error.msg %></li>
